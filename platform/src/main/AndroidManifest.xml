@@ -17,6 +17,20 @@
             android:name="LOGIN_CLASS_NAME_KEY"
             android:value="${LOGIN_CLASS_NAME_VALUE}" />
         <!-- 登录后跳转的首页 start-->
+        <activity
+            android:name="cn.aorise.common.component.login.AoriseSplashActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.FullscreenTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="cn.aorise.common.component.login.AoriseLoginActivity"
+            android:label="@string/aorise_component_title_activity_login">
+        </activity>
     </application>
 
 </manifest>

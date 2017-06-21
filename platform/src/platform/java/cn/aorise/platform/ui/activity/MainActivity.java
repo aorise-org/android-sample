@@ -71,16 +71,17 @@ public class MainActivity extends BaseActivity implements View.OnClickListener {
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.btn_education:
-                //openActivity(cn.aorise.education.ui.activity.MainActivity.class);
+                openActivity(cn.aorise.education.ui.activity.MainActivity.class);
                 break;
             case R.id.btn_hospital:
-                //openActivity(cn.aorise.hospital.ui.activity.MainActivity.class);
+                openActivity(cn.aorise.hospital.ui.activity.MainActivity.class);
                 break;
             case R.id.btn_petition:
                 openActivity(cn.aorise.petition.ui.activity.MainActivity.class);
                 break;
             case R.id.btn_security:
-                //openActivity(NetListV2Activity.class);
+                // openActivity(NetListV2Activity.class);
+                showToast("暂时不支持");
                 break;
             case R.id.btn_other:
                 openActivity(cn.aorise.sample.ui.activity.MainActivity.class);
