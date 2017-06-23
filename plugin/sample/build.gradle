@@ -16,6 +16,7 @@ greendao {
 android {
     compileSdkVersion rootProject.ext.android.compileSdkVersion
     buildToolsVersion rootProject.ext.android.buildToolsVersion
+    resourcePrefix "sample_"
 
     dataBinding {
         enabled = true
