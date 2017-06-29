@@ -1,4 +1,5 @@
-# 公司Android开发样例工程
+# android-sample
+公司android开发样例工程
 
 ## 样例
 - `platform` 模块是平台配置工程样例
