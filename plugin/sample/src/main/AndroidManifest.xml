@@ -31,15 +31,6 @@
         <activity
             android:name="cn.aorise.sample.ui.activity.DbActivity"
             android:label="@string/sample_title_activity_db" />
-
-        <!-- Umeng start -->
-        <meta-data
-            android:name="UMENG_APPKEY"
-            android:value="${UMENG_APPKEY_VALUE}"/>
-        <meta-data
-            android:name="UMENG_CHANNEL"
-            android:value="${CHANNEL_VALUE}"/>
-        <!-- Umeng end -->
     </application>
 
 </manifest>

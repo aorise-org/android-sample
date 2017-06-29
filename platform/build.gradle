@@ -90,7 +90,9 @@ android {
             versionName "1.0.1"
 
             manifestPlaceholders = [PACKAGE_NAME_VALUE    : "cn.aorise.platform",
-                                    LOGIN_CLASS_NAME_VALUE: "cn.aorise.platform.ui.activity.MainActivity"]
+                                    LOGIN_CLASS_NAME_VALUE: "cn.aorise.platform.ui.activity.MainActivity",
+                                    CHANNEL_VALUE         : "aorise",
+                                    UMENG_APPKEY_VALUE    : "594a0dc076661341b30014d1"]
         }
         education {
             applicationId 'cn.aorise.education'
@@ -98,7 +100,9 @@ android {
             versionName "1.0.1"
 
             manifestPlaceholders = [PACKAGE_NAME_VALUE    : "cn.aorise.education",
-                                    LOGIN_CLASS_NAME_VALUE: "cn.aorise.education.ui.activity.MainActivity"]
+                                    LOGIN_CLASS_NAME_VALUE: "cn.aorise.education.ui.activity.MainActivity",
+                                    CHANNEL_VALUE         : "aorise",
+                                    UMENG_APPKEY_VALUE    : "594a0dc076661341b30014d1"]
         }
         hospital {
             applicationId 'cn.aorise.hospital'
@@ -106,7 +110,9 @@ android {
             versionName "1.0.1"
 
             manifestPlaceholders = [PACKAGE_NAME_VALUE    : "cn.aorise.hospital",
-                                    LOGIN_CLASS_NAME_VALUE: "cn.aorise.hospital.ui.activity.MainActivity"]
+                                    LOGIN_CLASS_NAME_VALUE: "cn.aorise.hospital.ui.activity.MainActivity",
+                                    CHANNEL_VALUE         : "aorise",
+                                    UMENG_APPKEY_VALUE    : "594a0dc076661341b30014d1"]
         }
         petition {
             applicationId 'cn.aorise.petition'
@@ -115,14 +121,18 @@ android {
             versionName "1.0.0"
 
             manifestPlaceholders = [PACKAGE_NAME_VALUE    : "cn.aorise.petition",
-                                    LOGIN_CLASS_NAME_VALUE: "cn.aorise.petition.ui.activity.MainActivity"]
+                                    LOGIN_CLASS_NAME_VALUE: "cn.aorise.petition.ui.activity.MainActivity",
+                                    CHANNEL_VALUE         : "aorise",
+                                    UMENG_APPKEY_VALUE    : "594a0dc076661341b30014d1"]
         }
         sample {
             applicationId 'cn.aorise.sample'
             versionCode 1
             versionName "1.0.0"
             manifestPlaceholders = [PACKAGE_NAME_VALUE    : "cn.aorise.sample",
-                                    LOGIN_CLASS_NAME_VALUE: "cn.aorise.sample.ui.activity.MainActivity"]
+                                    LOGIN_CLASS_NAME_VALUE: "cn.aorise.sample.ui.activity.MainActivity",
+                                    CHANNEL_VALUE         : "aorise",
+                                    UMENG_APPKEY_VALUE    : "594a0dc076661341b30014d1"]
         }
 //        livelihood {
 //            applicationId 'cn.aorise.livelihood'

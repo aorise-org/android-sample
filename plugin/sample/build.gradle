@@ -28,8 +28,6 @@ android {
         versionCode 1
         versionName "1.0.0"
         multiDexEnabled true
-        manifestPlaceholders = [CHANNEL_VALUE     : "aorise",
-                                UMENG_APPKEY_VALUE: "594a0dc076661341b30014d1"]
 
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }

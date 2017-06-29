@@ -18,9 +18,9 @@ allprojects {
     repositories {
         jcenter()
         mavenCentral()
-        // maven { url 'https://oss.sonatype.org/content/repositories/snapshots/' }
         maven {
-            url "https://dl.bintray.com/aorise-android-group/maven/"
+            url "https://raw.githubusercontent.com/aorise-org/maven-snapshots/master"
+            //url "https://dl.bintray.com/aorise-android-group/maven/"
         }
     }
 }
