@@ -76,12 +76,12 @@ android {
         }
     }
 
-//    android.variantFilter { variant ->
-//        //减少build时间
-//        if (!variant.getFlavors().get(0).name.equals('sample')) {
-//            variant.setIgnore(true);
-//        }
-//    }
+    android.variantFilter { variant ->
+        //减少build时间
+        if (!variant.getFlavors().get(0).name.equals('sample')) {
+            variant.setIgnore(true);
+        }
+    }
 
     productFlavors {
         platform {

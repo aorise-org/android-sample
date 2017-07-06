@@ -8,6 +8,6 @@ ext {
     ]
 
     dependencies = [
-            'aorise-common': 'cn.aorise:android-common:1.0.5-SNAPSHOT'
+            'aorise-common': 'cn.aorise:android-common:1.0.6-SNAPSHOT'
     ]
 }
