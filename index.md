@@ -7,3 +7,6 @@
 
 ## 配置
 - `config/config.gradle` 统一配置项目的编译版本和第三方库依赖
+
+## 联系方式
+- Email: [jianye.tang@aorise.org](mailto:jianye.tang@aoirse.org)
