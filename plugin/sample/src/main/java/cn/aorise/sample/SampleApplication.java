@@ -4,6 +4,7 @@ import android.app.Application;
 import android.util.Log;
 
 import cn.aorise.common.core.interfaces.IAppCycle;
+import cn.aorise.common.core.utils.assist.DebugUtil;
 import cn.aorise.sample.db.DbHelper;
 
 public class SampleApplication implements IAppCycle {
@@ -12,6 +13,7 @@ public class SampleApplication implements IAppCycle {
     @Override
     public void create(Application context) {
         Log.i(TAG, "init");
+        DebugUtil.setDebug(false);
         DbHelper.getInstance().init(context);
 
     }
